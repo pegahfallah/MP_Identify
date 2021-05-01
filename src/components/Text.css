@@ -1,53 +1,30 @@
-.container {
-  width: 100%;
-  height: 100vh;
-  background: black;
-}
-
-.text {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  justify-self: center;
-  justify-content: center;
-  align-items: center;
-  padding-top: 10%;
-  font-family: "Work Sans";
-}
-
-.h2 {
-}
-.img {
-  position: absolute;
-  top: 15%;
-  width: 100%;
-}
-
 h1 {
   font-family: "Work Sans";
   font-weight: 800;
-  font-size: 3em;
-  z-index: 1;
+  font-size: 5em;
+  width: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: calc(39vh - 1em);
 }
 
 /* Style the rainbow text element. */
 .rainbow-text {
   /* Create a conic gradient. */
   /* Double percentages to avoid blur (#000 10%, #fff 10%, #fff 20%, ...). */
-  background: #2f99e0;
-  background-color: #30cdfd;
+  background: #8830cf;
+  background-color: #9734c5;
   background: conic-gradient(
-    #30cdfd 16.666%,
-    #30cdfd 16.666%,
-    #30cdfd 33.333%,
+    #bd63e7 16.666%,
+    #cf30a0 16.666%,
+    #c5347d 33.333%,
     #f14377 33.333%,
-    #f14377 50%,
-    #f14377 50%,
-    #f14377 66.666%,
-    #bd63e7 66.666%,
-    #bd63e7 83.333%,
-    #bd63e7 83.333%
+    #f18f43 50%,
+    #38da6e 50%,
+    #09c4a4 66.666%,
+    #30cdfd 66.666%,
+    #30cdfd 83.333%,
+    #2f99e0 83.333%
   );
 
   /* Set thee background size and repeat properties. */
