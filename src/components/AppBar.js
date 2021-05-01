@@ -1,6 +1,8 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "./ThemeProvider";
 import ToggleTheme from "./ToggleTheme";
+import { Player, Controls } from "@lottiefiles/react-lottie-player";
+
 import "./AppBar.css";
 const AppBar = () => {
   const state = useContext(ThemeContext);
@@ -20,8 +22,12 @@ const AppBar = () => {
   };
   return (
     <div style={appBar}>
-      {/* <img style={icon} src="./mp.gif"></img> */}
-      <h1>Microplastic Indicator</h1>
+      <Player
+        autoplay
+        src="https://assets6.lottiefiles.com/packages/lf20_zi88tn5r.json"
+        style={{ height: "40px", width: "40px", paddingTop: "6px" }}
+      ></Player>
+      <h1 style={{ fontSize: "20px" }}>Microplastic Indicator</h1>
       <ul>
         <li>Home</li>
         <li>About</li>

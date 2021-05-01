@@ -14,3 +14,7 @@ li {
 li:hover {
   color: cyan;
 }
+
+.h1 {
+  font-size: 45px;
+}
