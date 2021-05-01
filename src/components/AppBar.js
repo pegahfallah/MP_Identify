@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "./ThemeProvider";
 import ToggleTheme from "./ToggleTheme";
-
+import "./AppBar.css";
 const AppBar = () => {
   const state = useContext(ThemeContext);
 
