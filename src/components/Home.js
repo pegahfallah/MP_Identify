@@ -10,9 +10,15 @@ export default function Home() {
 
   return (
     <div style={container} className="container">
-      <div>
-        <h1>Hi</h1>
+      <div className="text">
+        <h1 className="h1">voluptates magnam. tenetur.</h1>
+        <h2 className="h2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eveniet
+          in optio, quibusdam ea voluptatibus architecto quisquam velit. Unde,
+          necessitatibus.
+        </h2>
       </div>
+      <img className="img" src="./dot.png"></img>
     </div>
   );
 }

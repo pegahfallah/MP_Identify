@@ -20,7 +20,7 @@ const AppBar = () => {
   };
   return (
     <div style={appBar}>
-      <img style={icon} src="./mp.gif"></img>
+      {/* <img style={icon} src="./mp.gif"></img> */}
       <h1>Microplastic Indicator</h1>
       <ul>
         <li>Home</li>
