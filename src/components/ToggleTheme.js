@@ -11,9 +11,8 @@ function ToggleTheme() {
     fontFamily: "Work Sans",
     background: state.theme.primary,
     color: "cyan",
-    border: "3px solid cyan",
+    border: "1px solid cyan",
     fontSize: "16px",
-    fontWeight: "bold",
     transition: "1.5s",
     borderRadius: "100px",
   };
