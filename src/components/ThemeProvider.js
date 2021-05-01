@@ -13,7 +13,7 @@ export const ThemeContextProvider = (props) => {
   const theme = {
     light: {
       type: "light",
-      primary: "#0277bd",
+      primary: "white",
       text: "black",
     },
     dark: {
@@ -28,7 +28,7 @@ export const ThemeContextProvider = (props) => {
   };
 
   const initState = {
-    theme: theme.light,
+    theme: theme.dark,
     setTheme: setTheme,
   };
 

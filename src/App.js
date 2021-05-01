@@ -3,13 +3,12 @@ import "./App.css";
 import { ThemeContextProvider } from "./components/ThemeProvider";
 import AppBar from "./components/AppBar";
 import Footer from "./components/Footer";
-import ToggleTheme from "./components/ToggleTheme";
-
+import Home from "./components/Home";
 function App() {
   return (
     <ThemeContextProvider>
       <AppBar />
-      <ToggleTheme />
+      <Home />
       <Footer />
     </ThemeContextProvider>
   );
