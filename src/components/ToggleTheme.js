@@ -8,18 +8,17 @@ function ToggleTheme() {
     borderRadius: "25px",
     padding: "3px",
     width: "150px",
+    fontFamily: "Work Sans",
     background: state.theme.primary,
     color: "cyan",
-    border: "5px solid cyan",
+    border: "3px solid cyan",
     fontSize: "16px",
     fontWeight: "bold",
     transition: "1.5s",
     borderRadius: "100px",
   };
 
-  const container = {
-    marginTop: "22px",
-  };
+  const container = {};
 
   return (
     <div style={container}>

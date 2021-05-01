@@ -2,6 +2,15 @@ ul {
   list-style: none;
   display: flex;
   flex-direction: row;
-  width: 30%;
+  width: 45%;
   justify-content: space-between;
+  margin-left: auto;
+}
+
+li {
+  font-size: 1.1em;
+}
+
+li:hover {
+  color: cyan;
 }

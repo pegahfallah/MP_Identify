@@ -8,5 +8,11 @@ export default function Home() {
     backgroundColor: state.theme.primary,
   };
 
-  return <div style={container} className="container"></div>;
+  return (
+    <div style={container} className="container">
+      <div>
+        <h1>Hi</h1>
+      </div>
+    </div>
+  );
 }

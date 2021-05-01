@@ -6,10 +6,8 @@ const AppBar = () => {
   const state = useContext(ThemeContext);
 
   const appBar = {
-    marginTop: "-30px",
     backgroundColor: state.theme.primary,
-    width: "100%",
-    height: "6vh",
+    height: "5vh",
     color: state.theme.text,
     padding: "2%",
     display: "flex",
@@ -28,8 +26,10 @@ const AppBar = () => {
         <li>Home</li>
         <li>About</li>
         <li>Community</li>
+        <li>
+          <ToggleTheme />
+        </li>
       </ul>
-      <ToggleTheme />
     </div>
   );
 };
