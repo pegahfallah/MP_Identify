@@ -1,5 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Home.css";
+import { ThemeContext } from "./ThemeProvider";
+
 export default function Home() {
-  return <div>hi</div>;
+  const state = useContext(ThemeContext);
+  const container = {
+    backgroundColor: state.theme.primary,
+  };
+
+  return <div style={container} className="container"></div>;
 }
