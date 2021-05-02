@@ -16,6 +16,7 @@ function App() {
   return (
     <ThemeContextProvider>
       <BrowserRouter>
+        <AppBar />
         <Switch>
           <Route path="/tool">
             <Tool />

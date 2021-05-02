@@ -18,8 +18,8 @@ export default function Home() {
     width: "150px",
     fontFamily: "Work Sans",
     background: state.theme.primary,
-    color: "cyan",
-    border: "1px solid cyan",
+    color: "#c5347d",
+    border: "1px solid #c5347d",
     fontSize: "16px",
     transition: "1.5s",
     borderRadius: "100px",
@@ -27,8 +27,6 @@ export default function Home() {
 
   return (
     <>
-      <AppBar />
-
       <div style={container} className="container">
         <div className="text">
           <h1 className="h1">
