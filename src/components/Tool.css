@@ -1,0 +1,46 @@
+.tool-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Work Sans";
+}
+
+.left {
+  width: 50%;
+}
+.carosel {
+  width: fit-content;
+}
+.right {
+  width: 50%;
+}
+
+.frame {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 3%;
+}
+
+blockquote {
+  font-size: 1.8em;
+  margin-top: 15%;
+  font-family: "Work Sans";
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal {
+  width: 200px;
+  height: 200px;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
