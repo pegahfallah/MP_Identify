@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import "./Home.css";
 import { ThemeContext } from "./ThemeProvider";
+import AppBar from "./AppBar";
 
 export default function Home() {
   const state = useContext(ThemeContext);
@@ -25,34 +26,38 @@ export default function Home() {
   };
 
   return (
-    <div style={container} className="container">
-      <div className="text">
-        <h1 className="h1">
-          <span style={text}> voluptates </span>{" "}
-          <span className="rainbow-text">magnam. </span>
-          <span style={text}>somdoj</span>
-        </h1>
-        <h2 className="h2" style={text}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eveniet
-          in optio, quibusdam ea voluptatibus architecto quisquam velit. Unde,
-          necessitatibus.
-        </h2>
+    <>
+      <AppBar />
+
+      <div style={container} className="container">
+        <div className="text">
+          <h1 className="h1">
+            <span style={text}> voluptates </span>{" "}
+            <span className="rainbow-text">magnam. </span>
+            <span style={text}>somdoj</span>
+          </h1>
+          <h2 className="h2" style={text}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            eveniet in optio, quibusdam ea voluptatibus architecto quisquam
+            velit. Unde, necessitatibus.
+          </h2>
+        </div>
+        <div
+          style={{
+            zIndex: "100",
+            margin: "auto",
+            width: "fit-content",
+            justifyContent: "center",
+            alignItems: "center",
+            display: "flex",
+            marginTop: "2.5%",
+            zIndex: "100",
+          }}
+        >
+          <button style={btn}> Get Started</button>
+        </div>
+        <img className="img" src="./dot.png"></img>
       </div>
-      <div
-        style={{
-          zIndex: "100",
-          margin: "auto",
-          width: "fit-content",
-          justifyContent: "center",
-          alignItems: "center",
-          display: "flex",
-          marginTop: "2.5%",
-          zIndex: "100",
-        }}
-      >
-        <button style={btn}> Get Started</button>
-      </div>
-      <img className="img" src="./dot.png"></img>
-    </div>
+    </>
   );
 }

@@ -11,5 +11,5 @@ export default function Footer() {
     height: "50px",
   };
 
-  return <div style={footer}>This is a Footer</div>;
+  return <div style={footer}>footer</div>;
 }
