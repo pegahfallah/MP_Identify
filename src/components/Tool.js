@@ -5,8 +5,9 @@ import AppBar from "./AppBar";
 import Footer from "./Footer";
 export default function Tool() {
   const state = useContext(ThemeContext);
-  const container = {
+  const toolContainer = {
     backgroundColor: state.theme.primary,
+    height: "90vh",
   };
   const text = {
     color: state.theme.text,
@@ -18,8 +19,8 @@ export default function Tool() {
     width: "150px",
     fontFamily: "Work Sans",
     background: state.theme.primary,
-    color: "#c5347d;",
-    border: "1px solid #c5347d;",
+    color: "#c5347d",
+    border: "1px solid #c5347d",
     fontSize: "16px",
     transition: "1.5s",
     borderRadius: "100px",
@@ -27,8 +28,11 @@ export default function Tool() {
 
   return (
     <>
-      <div>
-        <img src="./unknown.png" width="500px"></img>
+      <div style={toolContainer}>
+        <div>
+          <p>this is not done</p>
+          <button style={btn}>start scanning</button>
+        </div>
       </div>
       <Footer></Footer>
     </>
